@@ -1,6 +1,5 @@
-let xP=11000;
+let xP=6000;
 let hero ="vinicius";
-//let nivelFerro: <1000
 
 if (xP<1000) {
     console.log("O herói de nome" +hero+ "está no nível de ferro");
