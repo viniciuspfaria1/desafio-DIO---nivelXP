@@ -1,28 +1,27 @@
-let xP=11000;
-let hero ="vinicius";
-//let nivelFerro: <1000
+let xP=9500;
+let nome ="vinicius";
 
 if (xP<1000) {
-    console.log("O herói de nome" +hero+ "está no nível de ferro");
+    console.log("O herói de nome" +nome+ "está no nível de ferro");
 }
 else if (xP>=1000 && xP<=2000) {
-    console.log("O herói de nome " +hero+ " está no nível de bronze");
+    console.log("O herói de nome " +nome+ " está no nível de bronze");
 }
 else if (xP>=2001 && xP<=5000) {
-    console.log("O herói de nome " +hero+ " está no nível de prata");
+    console.log("O herói de nome " +nome+ " está no nível de prata");
 }
 else if (xP>=5001 && xP<=7000) {
-    console.log("O herói de nome " +hero+ " está no nível de ouro");
+    console.log("O herói de nome " +nome+ " está no nível de ouro");
 }
 else if (xP>=7001 && xP<=8000) {
-    console.log("O herói de nome " +hero+ " está no nível de platina");
+    console.log("O herói de nome " +nome+ " está no nível de platina");
 }
 else if (xP>=8001 && xP<=9000) {
-    console.log("O herói de nome " +hero+ " está no nível de ascendente");
+    console.log("O herói de nome " +nome+ " está no nível de ascendente");
 }
-else if (xP>=9001 && xP<=1000) {
-    console.log("O herói de nome " +hero+ " está no nível de imortal");
+else if (xP>=9001 && xP<=10000) {
+    console.log("O herói de nome " +nome+ " está no nível de imortal");
 }
 else {
-    console.log("O herói de nome " +hero+ " está no nível de radiante");
+    console.log("O herói de nome " +nome+ " está no nível de radiante");
 }
